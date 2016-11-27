@@ -19,7 +19,7 @@ void transceiver_transmit(int8 pulse_no)
         }
     }
     pwm_stop();
-    delay_us(200);
+    delay_us(500);
     //pwm_high_z();
 }
 /**
